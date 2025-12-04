@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": "1",
+      "id": 1,
       "name": "iPhone 15",
       "price": 999,
       "category": "electronics",
@@ -9,16 +9,12 @@
       "description": "Latest iPhone with A16 chip",
       "imageUrl": "https://example.com/iphone.jpg",
       "isActive": true,
-      "tags": [
-        "smartphone",
-        "apple",
-        "premium"
-      ],
+      "tags": ["smartphone", "apple", "premium"],
       "rating": 4.8,
       "createdAt": "2024-01-15"
     },
     {
-      "id": "a9a4",
+      "id": 2,
       "name": "Test Product",
       "price": 99.99,
       "category": "test"
@@ -26,7 +22,7 @@
   ],
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "username": "john_doe",
       "email": "john@example.com",
       "password": "password123",
@@ -35,7 +31,7 @@
   ],
   "carts": [
     {
-      "id": "1",
+      "id": 1,
       "userId": 1,
       "products": [
         {
@@ -50,7 +46,7 @@
   ],
   "orders": [
     {
-      "id": "1",
+      "id": 1,
       "userId": 1,
       "cartId": 1,
       "items": [

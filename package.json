@@ -1,9 +1,9 @@
 {
   "name": "mystore-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server db.json --host 0.0.0.0"
+    "start": "node server.js"
   },
   "dependencies": {
     "json-server": "^0.17.0"
